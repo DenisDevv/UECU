@@ -10,3 +10,5 @@
 > Officina Elettrauto
 ### Tagline
 > Rimappa la tua auto in pochi minuti, direttamente da casa, usando il tuo telefono.
+### Use Case
+<img src="https://yuml.me/f127cde4.svg" width="500" />
