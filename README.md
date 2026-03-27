@@ -194,3 +194,54 @@ Possibili entrate:
 
 ### Elevator Pitch
 UECU è una piattaforma composta da dispositivo e app che permette di monitorare e gestire i dati elettronici del veicolo in modo semplice e digitale. L’utente può controllare la propria auto dal telefono, avere uno storico digitale e ricevere assistenza tecnica. Il progetto digitalizza il rapporto tra veicolo, utente e officina, rendendolo più semplice, veloce e moderno.
+
+
+---
+
+## Modellazione e Prototipazione
+
+### Use Case UML
+
+```mermaid
+flowchart LR
+    U[Utente]
+    D[Dispositivo UECU]
+    A[App Mobile]
+    S[Server Centrale]
+    T[Tecnico]
+    M[Amministratore]
+
+    U --> UC1[Registrarsi]
+    U --> UC2[Effettuare login]
+    U --> UC3[Associare dispositivo]
+    U --> UC4[Collegare il veicolo]
+    U --> UC5[Visualizzare dati veicolo]
+    U --> UC6[Consultare storico operazioni]
+    U --> UC7[Ricevere notifiche]
+    U --> UC8[Inviare richiesta assistenza]
+
+    D --> UC9[Trasmettere dati all'app]
+    D --> UC10[Sincronizzarsi con app]
+
+    A --> UC11[Mostrare stato del veicolo]
+    A --> UC12[Inviare dati al server]
+    A --> UC13[Gestire notifiche e storico]
+
+    T --> UC14[Analizzare richiesta tecnica]
+    T --> UC15[Fornire supporto remoto]
+
+    M --> UC16[Gestire utenti]
+    M --> UC17[Gestire dispositivi]
+    M --> UC18[Gestire database]
+    M --> UC19[Pubblicare aggiornamenti]
+
+    UC3 --> A
+    UC4 --> D
+    UC5 --> A
+    UC6 --> A
+    UC7 --> A
+    UC8 --> S
+    UC9 --> A
+    UC12 --> S
+    UC14 --> S
+    UC16 --> S
