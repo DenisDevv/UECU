@@ -178,3 +178,77 @@ flowchart LR
     T --> Server
     M --> Server
 ```
+---
+
+## Prototipo
+
+### Accesso diretto:
+
+- https://uecu.lovable.app
+
+---
+
+## Elevator Pitch
+
+ UECU è una piattaforma composta da dispositivo e app che permette di monitorare i dati del veicolo in modo semplice e digitale. L’utente può controllare la propria auto dal telefono, avere uno storico completo e ricevere assistenza tecnica. UECU rende il controllo del veicolo più moderno, veloce e accessibile.
+
+---
+
+WBS (Work Breakdown Structure)
+```mermaid
+graph LR
+    A["UECU<br/>(4 mesi – €30k)"]
+
+    A --> B["1. Progettazione<br/>(€4k – 3 sett.)"]
+    B --> B1["Requisiti"]
+    B --> B2["Architettura"]
+
+    A --> C["2. Hardware<br/>(€7k – 5 sett.)"]
+    C --> C1["Dispositivo"]
+    C --> C2["Bluetooth"]
+    C --> C3["Firmware"]
+
+    A --> D["3. Backend<br/>(€8k – 6 sett.)"]
+    D --> D1["Database"]
+    D --> D2["API"]
+    D --> D3["Servizi"]
+
+    A --> E["4. App Mobile<br/>(€8k – 6 sett.)"]
+    E --> E1["UI"]
+    E --> E2["Connessione"]
+    E --> E3["Dashboard"]
+
+    A --> F["5. Testing<br/>(€3k – 3 sett.)"]
+    F --> F1["Test"]
+    F --> F2["Bugfix"]
+```
+---
+
+## Cronoprogramma
+
+```mermaid
+gantt
+    title UECU – Cronoprogramma (4 mesi)
+    dateFormat  YYYY-MM-DD
+
+    section Progettazione
+    Analisi           :a1, 2026-01-01, 7d
+    Architettura      :a2, after a1, 7d
+
+    section Hardware
+    Prototipo         :b1, 2026-01-15, 14d
+    Bluetooth         :b2, after b1, 14d
+
+    section Backend
+    Database          :c1, 2026-02-01, 7d
+    API               :c2, after c1, 14d
+
+    section App
+    UI                :d1, 2026-02-10, 14d
+    Funzionalità      :d2, after d1, 14d
+
+    section Testing
+    Test              :e1, 2026-03-20, 7d
+    Bugfix            :e2, after e1, 7d
+    Beta              :milestone, 2026-04-01, 0d
+```
