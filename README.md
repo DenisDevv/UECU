@@ -245,3 +245,13 @@ flowchart LR
     UC12 --> S
     UC14 --> S
     UC16 --> S
+
+```
+
+---
+
+## Sito Web
+
+- [Link Diretto](https://uecu.lovable.app)
+
+- https://uecu.lovable.app
