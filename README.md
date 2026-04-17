@@ -1,4 +1,4 @@
-# **UECU**
+<img width="1903" height="944" alt="image" src="https://github.com/user-attachments/assets/62b024bb-baf8-4851-8b17-3d4e18b8f9d1" /># **UECU**
 
 **Autore:** Denis Karaje
 
@@ -185,6 +185,13 @@ flowchart LR
 ### Accesso diretto:
 
 - https://uecu.lovable.app
+<img width="1903" height="944" alt="image" src="https://github.com/user-attachments/assets/267a3385-0482-43a5-8555-064e0830824d" />
+<img width="1902" height="944" alt="image" src="https://github.com/user-attachments/assets/b9223b75-7c0f-4ccb-b7c3-df0b783917ed" />
+<img width="1903" height="944" alt="image" src="https://github.com/user-attachments/assets/c3c0b4fc-82d7-44a1-aece-5d1840430ae2" />
+<img width="1902" height="941" alt="image" src="https://github.com/user-attachments/assets/d64e85d7-31b5-40a8-bbe0-31736dfcd243" />
+<img width="1905" height="941" alt="image" src="https://github.com/user-attachments/assets/3849038c-673a-463f-a17c-58bf0da496e4" />
+<img width="654" height="849" alt="image" src="https://github.com/user-attachments/assets/d9f6f776-e87a-424e-80cc-3daf791eb303" />
+<img width="1903" height="945" alt="image" src="https://github.com/user-attachments/assets/e1b3b4df-0c55-4c4e-b0c1-baad542566f5" />
 
 ---
 
